@@ -6,7 +6,7 @@ metadata:
   labels:
     "team": "detsombetyrnoe"
 spec:
-  image: { { image } }
+  image: {{image}}
   port: 3000
   liveness:
     path: "/api/isAlive"
@@ -26,4 +26,4 @@ spec:
     limits:
       memory: 128Mi
   ingresses:
-    - https://framsia-demo.dev.nav.no
+     - https://framsia-demo.dev.nav.no
